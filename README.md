@@ -6,6 +6,16 @@ This is a [fork](https://github.com/EBjerrum/SMILES-enumeration) aimed at Python
 ```bash
 pip install git+https://github.com/jeremyadamsfisher/SMILES-enumeration.git
 ```
+
+Now you can do this:
+
+```python
+from SmilesEnumerator import SmilesEnumerator
+sme = SmilesEnumerator()
+for i in range(10):
+    print(sme.randomize_smiles("CCC(=O)O[C@@]1(CC[NH+](C[C@H]1CC=C)C)c2ccccc2"))
+```
+
 What follows is the original readme.
 
 <hr/>
