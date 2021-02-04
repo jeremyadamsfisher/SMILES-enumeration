@@ -1,6 +1,15 @@
 
 # SMILES enumeration, vectorization and batch generation
 
+This is a [fork](https://github.com/EBjerrum/SMILES-enumeration) aimed at Python3 support and pip-installability.
+
+```bash
+pip install git+https://github.com/jeremyadamsfisher/SMILES-enumeration.git
+```
+What follows is the original readme.
+
+<hr/>
+
 [![Smiles Enumeration Header](https://www.wildcardconsulting.dk/wp-content/uploads/2017/03/Smiles_Enumeration_girl_600px.png)](https://www.wildcardconsulting.dk/useful-information/smiles-enumeration-as-data-augmentation-for-molecular-neural-networks/)
 
 SMILES enumeration is the process of writing out all possible SMILES forms of a molecule. It's a useful technique for data augmentation before sequence based modeling of molecules. You can read more about the background in this [blog post](https://www.wildcardconsulting.dk/useful-information/smiles-enumeration-as-data-augmentation-for-molecular-neural-networks/) or [this preprint on arxiv.org](https://arxiv.org/abs/1703.07076)
